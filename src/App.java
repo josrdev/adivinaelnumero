@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) {
-        System.out.println(" █████╗ ██████╗ ██╗██╗   ██╗██╗███╗   ██╗ █████╗     ███████╗██╗         ███╗   ██╗██╗   ██╗███╗   ███╗███████╗██████╗  ██████╗ ");
+        System.out.println(" █████╗ ██████╗ ██╗██╗   ██╗██╗███╗   ██╗ █████╗     ███████╗██╗         ███╗   ██╗██╗   ██╗███╗   ███╗███████╗██████╗  ██████╗ "); // Adivina el numero
         System.out.println("██╔══██╗██╔══██╗██║██║   ██║██║████╗  ██║██╔══██╗    ██╔════╝██║         ████╗  ██║██║   ██║████╗ ████║██╔════╝██╔══██╗██╔═══██╗");
         System.out.println("███████║██║  ██║██║██║   ██║██║██╔██╗ ██║███████║    █████╗  ██║         ██╔██╗ ██║██║   ██║██╔████╔██║█████╗  ██████╔╝██║   ██║");
         System.out.println("██╔══██║██║  ██║██║╚██╗ ██╔╝██║██║╚██╗██║██╔══██║    ██╔══╝  ██║         ██║╚██╗██║██║   ██║██║╚██╔╝██║██╔══╝  ██╔══██╗██║   ██║");
@@ -14,7 +14,7 @@ public class App {
 
         Scanner sc = new Scanner(System.in);
         
-        numrandom = (int)(Math.random() * 10) + 1;
+        numrandom = (int)(Math.random() * 10) + 1; 
 
         do{
             System.out.println("Intente acertar el numemro!");
@@ -22,5 +22,6 @@ public class App {
             num = sc.nextInt();
         } while (numrandom != num);
             System.out.println("Has acertado el numero!");
+            System.out.println("Felicidades!!!");
     }
 }
